@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+}
+
+#principal
+{
+    
+    margin: auto;
+    margin-top: 30px;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 30px;
+    border-style: solid;
+}
+
+#orejas
+{
+    margin: auto;
+    background-color:  rgb(177, 177, 177);
+    width: 130px;
+    height: 130px;
+
+}
+
+#oreja1
+{
+    width: 80px; /* Ancho del círculo */
+    height: 80px; /* Alto del círculo */
+    background-color: #6C3B2A; /* Color de fondo del círculo */
+    border-radius: 50%; /* Establece el radio de las esquinas para formar un círculo */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, -300%);
+}
+
+
+#oreja2
+{
+    width: 80px; /* Ancho del círculo */
+    height: 80px; /* Alto del círculo */
+    background-color:#6C3B2A; /* Color de fondo del círculo */
+    border-radius: 50%; /* Establece el radio de las esquinas para formar un círculo */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, -300%);
+    
+}
+
+
+#cabeza
+{
+    background-color: rgb(177, 177, 177);
+    width: 180px;
+    height: 160px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+#ojo1
+{
+    width: 25px; /* Ancho del círculo */
+    height: 40px; /* Alto del círculo */
+    background-color: white; /* Color de fondo del círculo */
+    border-radius: 50%; /* Establece el radio de las esquinas para formar un círculo */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(70%, -350%);
+    
+}
+
+
+#ojo11
+{
+    width: 18; /* Ancho del círculo */
+    height: 20; /* Alto del círculo */
+    background-color:black; /* Color de fondo del círculo */
+    border-radius: 50%; /* Establece el radio de las esquinas para formar un círculo */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(70%, -350%);
+}
+
+#ojo2
+{
+    width: 25px; /* Ancho del círculo */
+    height: 40px; /* Alto del círculo */
+    background-color: white; /* Color de fondo del círculo */
+    border-radius: 50%; /* Establece el radio de las esquinas para formar un círculo */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-120%, -350%);
+    
+}
+#sonrisa
+{
+    width: 60px; /* Ancho del círculo */
+    height: 40px; /* Alto del círculo */
+    background-color:black; /* Color de fondo del círculo */
+    border-radius: 50%; /* Establece el radio de las esquinas para formar un círculo */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -220%);
+}
+
+#bola
+{
+    background-color: #6C3B2A;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+
+
+#cuerpo
+{
+    background-color: #6C3B2A;
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+    margin: auto;
+}
